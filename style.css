@@ -6,43 +6,25 @@ html, body, *{
 
 }
 body {
-    background-color:#293241;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.011em; /* Gives it that tight, technical modern editorial feel */
+}
+
+h1, h2, h3, .heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em; /* Match Anduril's display typography density */
+}
+body {
+    background-color: #010101;
     color: #f4f3ee;
-    font-family: Apple Chancery, cursive;
+    
     text-align: center;
 }
 
 h1 {
-    font-size: 20rem;
-}
-h2{
     font-size: 10rem;
 }
-p{
-    font-size: 4rem;
-}
-img{
-    width: 50rem;
-    height: 80rem;
-    padding: 10rem, 10rem;
-}
-.button-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #abc4ff;
-  color: white;
-  text-decoration: none; /* Removes the default link underline */
-  border-radius: 5rem;
-  text-align: center;
-  font-family: Apple Chancery, cursive;
-}
-
-.button-link:hover {
-  background-color: #0056b3;
-}
-ol {
-    font-size: 10rem;
-}
-li {
-    font-size: 4rem;
+h2 {
+    font-size: 6rem;
 }
