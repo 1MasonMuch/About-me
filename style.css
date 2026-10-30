@@ -23,8 +23,21 @@ body {
 }
 
 h1 {
-    font-size: 10rem;
+    font-size: 13rem;
 }
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
+}
+.name {
+  display: flex;
+  justify-content: space-between; /* Pushes children to far left and far right */
+  align-items: center;            /* Centers them vertically */
+  padding: 1.5rem 3rem;
+  background: #0a0a0a;
+  color: #fff;
+  
+}
+.title{
+    background-color: #1b1a1a;
+    border-radius:0 0 3rem 3rem;
 }
