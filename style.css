@@ -20,6 +20,7 @@ body {
     color: #f4f3ee;
     
     text-align: center;
+    font-size: 2rem;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h3 {
     font-size: 3rem;
 }
 p{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .name {
   display: flex;
