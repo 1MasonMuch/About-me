@@ -35,6 +35,10 @@ h3 {
 p{
     font-size: 3rem;
 }
+
+li {
+    font-size:  2rem;
+}
 .name {
   display: flex;
   justify-content: space-between; /* Pushes children to far left and far right */
